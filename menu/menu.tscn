@@ -1,0 +1,61 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://menu/bts_start.cs" type="Script" id=1]
+[ext_resource path="res://assets/start.png" type="Texture" id=2]
+[ext_resource path="res://assets/quit.png" type="Texture" id=3]
+[ext_resource path="res://assets/bg1.png" type="Texture" id=4]
+[ext_resource path="res://menu/bts_quit.cs" type="Script" id=5]
+[ext_resource path="res://assets/highest_score.png" type="Texture" id=6]
+[ext_resource path="res://menu/bts_highestscore.cs" type="Script" id=7]
+[ext_resource path="res://assets/logo.png" type="Texture" id=8]
+
+[node name="menu" type="Node"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="bts_start" type="TextureButton" parent="CanvasLayer"]
+margin_left = 150.0
+margin_top = 310.0
+margin_right = 350.0
+margin_bottom = 410.0
+texture_normal = ExtResource( 2 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="bts_highestscore" type="TextureButton" parent="CanvasLayer"]
+visible = false
+margin_left = 50.0
+margin_top = 310.0
+margin_right = 450.0
+margin_bottom = 410.0
+texture_normal = ExtResource( 6 )
+script = ExtResource( 7 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="bts_quit" type="TextureButton" parent="CanvasLayer"]
+margin_left = 150.0
+margin_top = 420.0
+margin_right = 350.0
+margin_bottom = 520.0
+texture_normal = ExtResource( 3 )
+script = ExtResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer"]
+margin_right = 40.0
+margin_bottom = 40.0
+texture = ExtResource( 8 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 252.5, 402.5 )
+scale = Vector2( 1.2825, 2.0475 )
+texture = ExtResource( 4 )

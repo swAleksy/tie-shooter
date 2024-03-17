@@ -1,0 +1,9 @@
+C:\Users\adamb\Desktop\AGH\Main - elektronika\1. Informatyka\gierka\.mono\temp\bin\ExportDebug\Star Wars TIE Shooter.dll
+C:\Users\adamb\Desktop\AGH\Main - elektronika\1. Informatyka\gierka\.mono\temp\bin\ExportDebug\Star Wars TIE Shooter.pdb
+C:\Users\adamb\Desktop\AGH\Main - elektronika\1. Informatyka\gierka\.mono\temp\obj\ExportDebug\Star Wars TIE Shooter.csproj.AssemblyReference.cache
+C:\Users\adamb\Desktop\AGH\Main - elektronika\1. Informatyka\gierka\.mono\temp\obj\ExportDebug\Star Wars TIE Shooter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adamb\Desktop\AGH\Main - elektronika\1. Informatyka\gierka\.mono\temp\obj\ExportDebug\Star Wars TIE Shooter.AssemblyInfoInputs.cache
+C:\Users\adamb\Desktop\AGH\Main - elektronika\1. Informatyka\gierka\.mono\temp\obj\ExportDebug\Star Wars TIE Shooter.AssemblyInfo.cs
+C:\Users\adamb\Desktop\AGH\Main - elektronika\1. Informatyka\gierka\.mono\temp\obj\ExportDebug\Star Wars TIE Shooter.csproj.CoreCompileInputs.cache
+C:\Users\adamb\Desktop\AGH\Main - elektronika\1. Informatyka\gierka\.mono\temp\obj\ExportDebug\Star Wars TIE Shooter.dll
+C:\Users\adamb\Desktop\AGH\Main - elektronika\1. Informatyka\gierka\.mono\temp\obj\ExportDebug\Star Wars TIE Shooter.pdb

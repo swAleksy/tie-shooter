@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://assets/meteor2.png" type="Texture" id=1]
+[ext_resource path="res://meteor/Meteor.cs" type="Script" id=2]
+
+[node name="Meteor" type="Area2D" groups=["dmgAble"]]
+script = ExtResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+visible = false
+polygon = PoolVector2Array( -46, -49, -48, 19, 44, 10, 40, -51 )
+
+[node name="VisibilityNotifier2D" type="VisibilityNotifier2D" parent="."]
+visible = false
+position = Vector2( 0, -14 )
+scale = Vector2( 5.5, 4.4 )
+
+[connection signal="area_entered" from="." to="." method="_on_Meteor_area_entered"]
+[connection signal="area_exited" from="." to="." method="_on_Meteor_area_exited"]
+[connection signal="screen_exited" from="VisibilityNotifier2D" to="." method="_on_VisibilityNotifier2D_screen_exited"]

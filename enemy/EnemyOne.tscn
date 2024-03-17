@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://enemy/Enemy.tscn" type="PackedScene" id=1]
+[ext_resource path="res://enemy/EnemyOne.cs" type="Script" id=2]
+
+[node name="EnemyOne" instance=ExtResource( 1 )]
+script = ExtResource( 2 )
+speed = 400.0
+hp = 10.0
